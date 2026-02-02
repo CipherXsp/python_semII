@@ -46,4 +46,5 @@ print("4. Reversing list elements:")
 reversed_list = [1, 2, 3, 4, 5]
 print(f"Original list: {reversed_list}")
 reversed_list.reverse()
+
 print(f"After reverse(): {reversed_list}")
