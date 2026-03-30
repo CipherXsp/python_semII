@@ -1,0 +1,12 @@
+file= open("demo.txt", "w")
+file.write("This is a demo file.\n")
+file= open("demo.txt", "r")
+content= file.read
+print(content)
+file.close()
+file= open("demo.txt", "a")
+file.write("this is an appended line\n")
+file= open("demo.txt", "r")
+content= file.read()
+print(content)
+file.close()
